@@ -1,0 +1,35 @@
+.shorts-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    height: 100%;
+    width: 100%;  
+    padding: 20px;
+    text-decoration: none;
+}
+
+.short-thumbnail
+{
+    height: 860px;
+    width: 480px
+}
+
+.help
+{
+    text-decoration: none;
+}
+
+.short-title
+{
+    margin-top: 0;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limit to two lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: black;
+}

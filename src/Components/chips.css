@@ -1,0 +1,32 @@
+/* chips.css */
+.chip-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .chip-button {
+    border: none;
+    margin: 10px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #313131;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .chip-button:hover {
+    background-color: #ccc;
+  }
+  
+  .chip-button.selected {
+    background-color: black;
+    color: white;
+  }
+  

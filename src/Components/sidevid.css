@@ -1,0 +1,82 @@
+.sidevid-allvids
+{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+
+.sidevid-container
+{
+    display: flex;
+    height: 110px;
+    width: 390px;
+    text-decoration: none;
+}
+
+.sidevid-imgbox
+{
+    height:110px;
+    width: 180px;
+
+}
+
+.sidevid-img
+{
+    height: 100%;
+    width: 100%;
+
+    border-radius: 10px;
+}
+
+.sidevid-text
+{
+    max-width: 180px;
+    max-height: 110px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.sidevid-text1
+{
+    margin-top: 0;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limit to two lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: black;
+}
+
+.sidevid-text2
+{
+    margin-top: -4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #707070;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* Limit to one lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sidevid-text3
+{
+    margin-top: -6px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #707070;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* Limit to one lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

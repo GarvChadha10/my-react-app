@@ -1,0 +1,13 @@
+.BigContainer
+{
+    display: flex;
+}
+
+
+.smallcontainer
+{
+    display: flex;
+    margin-top: 15px;
+    gap: 25px;
+}
+

@@ -1,0 +1,25 @@
+.Container
+{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: -10px;
+    margin-left: 5px;
+}
+
+.TopRight
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+
+}
+
+.TopLeft
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

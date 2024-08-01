@@ -1,0 +1,189 @@
+/* .videos-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    cursor: pointer;
+
+}
+
+
+.videos-videobox
+{
+    height: 229.5px;
+    width: 262px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.videos-image
+{
+    height: 147.38px;
+    width: 262px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+.videos-textcontainer
+{
+    margin-top: 3px;
+    height: 81.87px;
+    width: 262px;
+
+    display: flex;;
+}
+
+.pfp
+{
+
+    width: 38.4px;
+    height: 81.87px;
+    border-radius: 50%;
+}
+
+.pfp-image
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.text
+{
+
+    width: 201.74px;
+    height: 81.87px;
+}
+
+.set
+{
+
+    width: 21.86px;
+    height: 81.87px;
+
+}
+
+.text1
+{
+    height: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #030303;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limit to two lines */
+    /* -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text2
+{
+    height: 42px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #606060;
+}
+
+.text22
+{
+    margin-top: 5px;
+} */ 
+
+.videos-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+.videos-videobox
+{
+    height: 344px;
+    width: 333px;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.videos-image
+{
+    height: 193px;
+    width: 344px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+.videos-textcontainer
+{
+    margin-top: 8px;
+    height: 100px;
+    width: 344px;
+    display: flex;;
+}
+
+.pfp
+{
+
+    width: 48px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.pfp-image
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.text
+{
+    padding-left: 10px;
+    width: 271.74px;
+    height: 100px;
+}
+
+.set
+{
+
+    width: 40px;
+    height: 100px;
+
+}
+
+.text1
+{
+
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.3em;
+    font-size: 15px;
+    font-weight: 500;
+    color: #030303;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limit to two lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text2
+{
+    height: 40px;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #606060;
+}
+
+.text22
+{
+    margin-top: 3px;
+}

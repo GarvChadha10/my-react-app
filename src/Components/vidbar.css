@@ -1,0 +1,224 @@
+.bar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -7px;
+}
+
+.bar-left
+{
+    display: flex;
+    align-items: center;
+}
+
+.bar-profile
+{
+    display: flex;
+
+}
+
+.bar-pfp
+{
+    height: 40px;
+    width: 40px;
+}
+
+.pfp
+{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+}
+
+.bar-textbox
+{
+    margin-left: 8px;
+    height: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 21px;
+}
+
+.bar-text1
+{
+    height: 20px;
+
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: rgb(15,15,15);
+}
+
+.bar-text2
+{
+    height: 20px;
+
+    font-family: 'Roboto';
+    font-size: 11px;
+    color:rgb(95, 95, 95)
+}
+
+.bar-join
+{
+    font-size: 13px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: rgb(15,15,15);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius: 17px;
+    border: 0;
+    background-color: #f1efef;
+    cursor: pointer;
+}
+
+.bar-join:hover
+{
+    background-color: #ccc;
+    transition: background-color 0.06 ease;
+}
+
+.bar-subscribe
+{
+    font-size: 13px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius: 17px;
+    border: 0;
+    background-color: black;
+    cursor: pointer;
+    margin-left: 10px;  
+}
+
+.bar-subscribe:hover
+{
+    background-color: rgb(37, 37, 37);
+}
+
+.bar-right
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+}
+
+.bar-likebuttons
+{
+    display: flex;
+}
+
+
+.likebutton
+{
+    border: none;
+    background-color: #f1efef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-right: 1px solid #a1a1a1;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+}
+
+.like
+{
+    width: 17px;
+    height: 17px;
+}
+
+.dislikebutton
+{
+    border: none;
+    background-color: #f1efef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+
+.dislike
+{
+    width: 17px;
+    height: 17px;
+}
+
+.para
+{
+    font-family: 'Roboto';
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.likebutton:hover
+{
+    background-color: #ccc;
+}
+
+.dislikebutton:hover
+{
+    background-color: #ccc;
+}
+
+.bar-btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 32px;
+    gap: 6px;
+    border: 0;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.icon
+{
+    height: 20px;
+    width: 20px;
+}
+
+.bar-btn:hover
+{
+    background-color: #ccc;
+}
+
+.bar-reportbtn
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0;
+    padding: 6px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.bar-reportbtn:hover
+{
+    background-color: #ccc;
+}

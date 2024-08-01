@@ -1,0 +1,136 @@
+
+.sidebarclosed-container
+{
+    display: inline-flex;
+    flex-direction: column;
+    width: 55px;
+    margin-left: -3px;
+    margin-top: 3px;
+}
+
+.sidebarclosed-button
+{
+    border: 0;
+    padding: 0;
+    width: 55px;
+    height: 63px;
+    background-color: white;
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: -5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+    text-decoration: none;
+    color:black
+}
+
+.sidebarclosed-button:hover
+{
+    transition: background-color 2000 ease;
+    background-color: #ebeaea;
+    border-radius: 10%;
+}
+
+
+.sidebarclosed-image
+{
+    height: 17px;
+    width: 17px;
+}
+
+.sidebaropen-container
+{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    padding-left: 10px;
+}
+
+.sidebaropen-button
+{
+    border: none;
+    cursor: pointer;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    background-color: white;
+    text-decoration: none;    
+    padding-left: 10px;
+}
+
+.sidebaropen-button:hover
+{
+    transition: background-color 0.06 ease;
+    background-color:#ebeaea ;
+    border-radius: 10px;
+
+}
+
+.sidebaropen-image
+{
+    height: 17px;
+    width: 17px;
+    padding-right: 24px;
+}
+
+.sidebaropen-text
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #313131;
+    font-weight: 400;
+
+}
+hr 
+{
+    border: none; /* Remove default border */
+    border-top: 1px solid #ccc; /* Add a solid line with light gray color */
+    margin: 15px 0px;
+}
+
+.sidebaropen-buttonhome
+{
+    border: none;
+    cursor: pointer;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    background-color:  #f1efef;
+    border-radius: 10px;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+
+.sidebaropen-texthome
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #313131;
+    font-weight: 500;
+}
+
+.sidebaropen-midcontainer
+{
+    margin-top: -10px;
+    padding-left: 10px;
+}
+
+h2
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #313131;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.sidebar
+{
+    height: 100vh;
+}

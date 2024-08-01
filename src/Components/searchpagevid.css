@@ -1,0 +1,98 @@
+.sidevid-allvidss
+{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sidevid-containers
+{
+    display: flex;
+    height: 280px;
+    width: 1250px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.sidevid-imgboxs
+{
+    height:280px;
+    width: 500px;
+
+}
+
+.sidevid-imgs
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sidevid-texts
+{
+    max-width: 730px;
+    max-height: 280px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.sidevid-text1s
+{
+    margin-top: 0;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limit to two lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: black;
+}
+
+.sidevid-text2s
+{
+    margin-top: -4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #707070;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* Limit to one lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: -4px;
+}
+
+.sidevid-text3s
+{
+    margin-top: -15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #707070;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* Limit to one lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.imgtexts
+{
+    display: flex;
+    align-items: center;
+}
+
+.text2imgs
+{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    margin-right: 10px;
+}

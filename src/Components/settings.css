@@ -1,0 +1,20 @@
+.settings-img
+{
+    width: 16px;
+    height: 16px;
+    padding: 5px;
+    margin-top: 3px
+}
+
+.settings-button
+{
+    border: 0;
+    background-color: white;
+}
+
+.settings-button:hover
+{
+    transition: background-color 0.06 ease;
+    border-radius: 50%;
+    background-color:#ebeaea ;
+}

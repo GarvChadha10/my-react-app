@@ -1,0 +1,11 @@
+.PageContainer
+{
+    display: flex;
+}
+
+.vids
+{
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 100%;
+}
