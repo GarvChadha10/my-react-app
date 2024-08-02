@@ -17,7 +17,7 @@ function SideBarOpen() {
   return(
     <div className="sidebaropen-container">
 
-      <Link to = "#" className="sidebaropen-buttonhome">
+      <Link to = "/" className="sidebaropen-buttonhome">
         <img className="sidebaropen-image" src = "../Photos/sidebarhomeicon.svg"/>
         <p className="sidebaropen-texthome">
           Home
@@ -157,7 +157,7 @@ function SideBarClosed()
     return(
       <div className="sidebarclosed-container">
       
-      <Link to = "#" className="sidebarclosed-button">
+      <Link to = "/" className="sidebarclosed-button">
         <img className="sidebarclosed-image" src = "../Photos/sidebarhomeicon.svg" />
         <p>Home</p>
       </Link>
